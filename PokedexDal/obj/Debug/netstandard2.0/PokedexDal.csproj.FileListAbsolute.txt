@@ -1,0 +1,10 @@
+C:\Users\elean\source\repos\XamarinPokedex\PokedexDal\bin\Debug\netstandard2.0\PokedexDal.deps.json
+C:\Users\elean\source\repos\XamarinPokedex\PokedexDal\bin\Debug\netstandard2.0\PokedexDal.dll
+C:\Users\elean\source\repos\XamarinPokedex\PokedexDal\bin\Debug\netstandard2.0\PokedexDal.pdb
+C:\Users\elean\source\repos\XamarinPokedex\PokedexDal\obj\Debug\netstandard2.0\PokedexDal.csproj.AssemblyReference.cache
+C:\Users\elean\source\repos\XamarinPokedex\PokedexDal\obj\Debug\netstandard2.0\PokedexDal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elean\source\repos\XamarinPokedex\PokedexDal\obj\Debug\netstandard2.0\PokedexDal.AssemblyInfoInputs.cache
+C:\Users\elean\source\repos\XamarinPokedex\PokedexDal\obj\Debug\netstandard2.0\PokedexDal.AssemblyInfo.cs
+C:\Users\elean\source\repos\XamarinPokedex\PokedexDal\obj\Debug\netstandard2.0\PokedexDal.csproj.CoreCompileInputs.cache
+C:\Users\elean\source\repos\XamarinPokedex\PokedexDal\obj\Debug\netstandard2.0\PokedexDal.dll
+C:\Users\elean\source\repos\XamarinPokedex\PokedexDal\obj\Debug\netstandard2.0\PokedexDal.pdb

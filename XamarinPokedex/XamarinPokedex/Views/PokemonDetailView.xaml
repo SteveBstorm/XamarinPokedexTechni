@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinPokedex.Views.PokemonDetailView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding MyPokemon.Name}" FontSize="25" HorizontalOptions="Center" />
+
+            <Image Source="{Binding MyPokemon.Sprites.Front_default}" HeightRequest="150" />
+            <Image Source="{Binding MyPokemon.Sprites.Back_default}" HeightRequest="150" />
+
+            <Button Command="{Binding CloseCommand}" Text="Fermer"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

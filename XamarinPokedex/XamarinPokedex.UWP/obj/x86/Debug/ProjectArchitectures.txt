@@ -1,0 +1,1 @@
+C:\Users\elean\source\repos\XamarinPokedex\XamarinPokedex\XamarinPokedex.UWP\XamarinPokedex.UWP.csproj;x86

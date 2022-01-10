@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinPokedex.Views.PokedexView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Mon super Pokédex" FontSize="20" HorizontalOptions="Center" />
+            <ListView ItemsSource="{Binding Results}" SelectedItem="{Binding SelectedPokemon}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding Name}" />
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Button Text="Précédent" Command="{Binding PreviousCommand}" />
+                <Button Grid.Column="1" Text="Suivant" Command="{Binding NextCommand}" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
